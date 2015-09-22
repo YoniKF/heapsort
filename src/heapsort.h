@@ -22,7 +22,7 @@ void heapSort(Container& c)
 	for (auto i = c.size() / 2; i-- > 0;) {
 		maxHeapify(i);
 	}
-	for (; heapSize-- > 1;) {
+	while (heapSize-- > 1) {
 		std::swap(c[0], c[heapSize]);
 		maxHeapify(0);
 	}
