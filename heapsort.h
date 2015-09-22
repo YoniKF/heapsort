@@ -1,5 +1,5 @@
-#ifndef HEAPSORT_H_
-#define HEAPSORT_H_
+#ifndef HEAPSORT_HEAPSORT_H
+#define HEAPSORT_HEAPSORT_H
 
 template<typename Container>
 void heapSort(Container& c)
@@ -28,4 +28,4 @@ void heapSort(Container& c)
 	}
 }
 
-#endif // HEAPSORT_H_
+#endif //HEAPSORT_HEAPSORT_H
